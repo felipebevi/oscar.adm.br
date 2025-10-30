@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amigos e Família - Oscar Cesar Bevilacqua</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <div class="container-layout">
+    <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </button>
+
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+    <aside id="sidebar" class="sidebar hidden">
+      <div class="sidebar-header">
+        <h1>Oscar</h1>
+        <p>Bevilacqua</p>
+      </div>
+      <nav>
+        <ul id="nav-menu" class="nav-menu"></ul>
+      </nav>
+      <div class="sidebar-footer">
+        <p>© 2025 Oscar Cesar</p>
+      </div>
+    </aside>
+
+    <main>
+      <div class="content p-8">
+        <div class="max-w-4xl">
+          <div class="page-header">
+            <h1>Amigos e Família</h1>
+          </div>
+
+          <div class="section">
+            <p style="text-align: center; color: var(--text-light); margin-bottom: 2rem;">Esta seção é dedicada aos meus amigos e familiares que fazem parte da minha vida.</p>
+
+            <div class="cards-grid">
+              <div class="card" style="background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);">
+                <h3>Família</h3>
+                <p>Minha família é a base de tudo que faço. Agradeço o apoio constante em todas as minhas jornadas.</p>
+              </div>
+
+              <div class="card" style="background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%);">
+                <h3>Amigos</h3>
+                <p>Tenho a sorte de contar com amigos verdadeiros que me apoiam em todos os momentos da vida.</p>
+              </div>
+
+              <div class="card" style="background: linear-gradient(135deg, #e9d5ff 0%, #d8b4fe 100%);">
+                <h3>Momentos Especiais</h3>
+                <p>Os momentos compartilhados com pessoas queridas são os que mais marcam nossas vidas.</p>
+              </div>
+
+              <div class="card" style="background: linear-gradient(135deg, #fed7aa 0%, #fdba74 100%);">
+                <h3>Conexões</h3>
+                <p>As conexões que fazemos ao longo da vida nos definem e nos transformam.</p>
+              </div>
+            </div>
+
+            <div style="background: #dbeafe; border-left: 4px solid var(--primary-color); padding: 1.5rem; border-radius: 0.5rem; margin-top: 2rem;">
+              <p style="font-style: italic; color: var(--text-dark);">"A vida é melhor quando compartilhada com as pessoas que amamos."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="../js/components.js"></script>
+  <script src="../js/app.js"></script>
+</body>
+</html>

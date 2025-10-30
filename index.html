@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oscar Cesar</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container-layout">
+    <!-- Mobile Menu Button -->
+    <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </button>
+
+    <!-- Sidebar Overlay -->
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+    <!-- Sidebar -->
+    <aside id="sidebar" class="sidebar hidden">
+      <div class="sidebar-header">
+        <h1>Oscar</h1>
+        <p>Cesar</p>
+      </div>
+
+      <nav>
+        <ul id="nav-menu" class="nav-menu"></ul>
+      </nav>
+
+      <div class="sidebar-footer">
+        <p>© 2025 Oscar Cesar</p>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main>
+      <div class="content p-8">
+        <div class="max-w-4xl">
+          <!-- Page Header -->
+          <div class="page-header">
+            <h1>Oscar Cesar Bevilacqua</h1>
+            <p>Bem-vindo ao meu portfólio</p>
+          </div>
+
+          <!-- Carousel -->
+          <div class="carousel-container">
+            <div class="carousel-image-wrapper">
+              <img id="carousel-image" src="images/DSC00666.JPG" alt="Carousel image 1" class="carousel-image">
+            </div>
+
+            <!-- Carousel Controls -->
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 1.5rem;">
+              <button id="carousel-prev" class="carousel-nav-btn prev" aria-label="Previous image">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+              </button>
+
+              <div class="carousel-indicators">
+                <button class="carousel-indicator active" aria-label="Go to image 1"></button>
+                <button class="carousel-indicator" aria-label="Go to image 2"></button>
+                <button class="carousel-indicator" aria-label="Go to image 3"></button>
+                <button class="carousel-indicator" aria-label="Go to image 4"></button>
+                <button class="carousel-indicator" aria-label="Go to image 5"></button>
+              </div>
+
+              <button id="carousel-next" class="carousel-nav-btn next" aria-label="Next image">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Info Cards -->
+          <div class="cards-grid">
+            <div class="card">
+              <div style="font-size: 2rem; margin-bottom: 0.5rem;">📋</div>
+              <h3>Profissional</h3>
+              <p>Gerente com experiência em logística, administração e gestão de projetos.</p>
+            </div>
+
+            <div class="card">
+              <div style="font-size: 2rem; margin-bottom: 0.5rem;">🎓</div>
+              <h3>Formação</h3>
+              <p>Administração de Empresas pela ESAN e Técnico Contábil.</p>
+            </div>
+
+            <div class="card">
+              <div style="font-size: 2rem; margin-bottom: 0.5rem;">🌐</div>
+              <h3>Conectado</h3>
+              <p>Explore meus links, redes sociais e informações de contato.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/components.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

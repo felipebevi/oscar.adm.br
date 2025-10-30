@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Árvore Genealógica - Oscar Cesar Bevilacqua</title>
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+  <div class="container-layout">
+    <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Toggle menu">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </button>
+
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+    <aside id="sidebar" class="sidebar hidden">
+      <div class="sidebar-header">
+        <h1>Oscar</h1>
+        <p>Bevilacqua</p>
+      </div>
+      <nav>
+        <ul id="nav-menu" class="nav-menu"></ul>
+      </nav>
+      <div class="sidebar-footer">
+        <p>© 2025 Oscar Cesar</p>
+      </div>
+    </aside>
+
+    <main>
+      <div class="content p-8">
+        <div class="max-w-4xl">
+          <div class="page-header">
+            <h1>Árvore Genealógica</h1>
+          </div>
+
+          <div class="section">
+            <p style="text-align: center; color: var(--text-light); margin-bottom: 2rem;">Explore a história e o legado da família Bevilacqua</p>
+
+            <div style="text-align: center;">
+              <div style="margin-bottom: 2rem;">
+                <div style="display: inline-block; background: #dbeafe; border: 2px solid var(--primary-color); border-radius: 0.5rem; padding: 1rem; margin-bottom: 1rem;">
+                  <p style="font-weight: bold; color: var(--text-dark);">Geração Ancestral</p>
+                </div>
+              </div>
+
+              <div style="margin-bottom: 2rem;">
+                <div style="display: inline-block; background: #dcfce7; border: 2px solid #22c55e; border-radius: 0.5rem; padding: 1rem;">
+                  <p style="font-weight: bold; color: var(--text-dark);">Pais</p>
+                </div>
+              </div>
+
+              <div style="margin-bottom: 2rem;">
+                <div style="display: inline-block; background: #e9d5ff; border: 2px solid #a855f7; border-radius: 0.5rem; padding: 1rem;">
+                  <p style="font-weight: bold; color: var(--text-dark);">Oscar Cesar</p>
+                </div>
+              </div>
+
+              <div>
+                <div style="display: inline-block; background: #fed7aa; border: 2px solid #f97316; border-radius: 0.5rem; padding: 1rem;">
+                  <p style="font-weight: bold; color: var(--text-dark);">Próxima Geração</p>
+                </div>
+              </div>
+            </div>
+
+            <div style="background: #dbeafe; border-left: 4px solid var(--primary-color); padding: 1.5rem; border-radius: 0.5rem; margin-top: 2rem;">
+              <h3>Sobre a Árvore Genealógica</h3>
+              <p style="color: var(--text-light);">A árvore genealógica é um registro importante da história familiar. Esta página pode ser expandida com mais detalhes sobre os membros da família e suas conexões.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <script src="../js/components.js"></script>
+  <script src="../js/app.js"></script>
+</body>
+</html>
